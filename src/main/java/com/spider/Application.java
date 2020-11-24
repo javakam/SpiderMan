@@ -1,5 +1,6 @@
 package com.spider;
 
+import com.spider.bean.XiguaVideoBean;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -25,11 +26,11 @@ import java.util.concurrent.TimeUnit;
 @SuppressWarnings("all")
 public class Application {
 
-    private static final String BASE_URL = "https://www.ixigua.com/";
+    private static final String BASE_URL = "https://www.ixigua.com";
     /**
      * 小视频首页，按需修改
      */
-    private static final String MAIN_PAGE_URL = BASE_URL + "home/3276166340814919/hotsoon/";
+    private static final String MAIN_PAGE_URL = BASE_URL + "/home/3276166340814919/hotsoon/";
 
     /**
      * 存放目录，按需修改
@@ -47,7 +48,6 @@ public class Application {
     private static final ChromeOptions CHROME_OPTIONS = new ChromeOptions();
 
     private final static String CHROME_DRIVER_PATH = "src\\main\\resources\\chromedriver.exe";
-
 
     static {
         // 驱动位置
@@ -89,12 +89,6 @@ public class Application {
         System.exit(0);
     }
 
-    /**
-     * 获取首页内容
-     *
-     * @return 首页内容
-     * @throws InterruptedException 睡眠中断异常
-     */
     private static String getMainPageSource() throws InterruptedException {
         ChromeDriver driver = new ChromeDriver(CHROME_OPTIONS);
 //        ChromeDriver driver = new ChromeDriver(createChromeDriverOptions());
@@ -102,7 +96,7 @@ public class Application {
             driver.get(MAIN_PAGE_URL);
             long waitTime = Double.valueOf(Math.max(3, Math.random() * 5) * 1000).longValue();
             TimeUnit.MILLISECONDS.sleep(waitTime);
-            long timeout = 5_000;//30_000
+            long timeout = 3_000;//30_000
             // 循环下拉，直到全部加载完成或者超时
             do {
                 new Actions(driver).sendKeys(Keys.END).perform();
@@ -116,8 +110,31 @@ public class Application {
     }
 
     private static void handleElement(Element div) throws Exception {
-        String href = div.getElementsByTag("a").first().attr("href");
+        final String href = div.getElementsByTag("a").first().attr("href");
+
+        final Element img = div.getElementsByTag("a").first().getElementsByTag("picture").first().getElementsByTag("img").first();
+        String imgSrc = img.attr("src");
+        String imgAlt = img.attr("alt");
+
+        String[] spanVals = div.getElementsByClass("VerticalFeedCard__bottomInfo").first().getElementsByTag("span").first().text().split("\\ · ");
+        String watchCount = spanVals[0].replace("次观看", "").replace("万", "");
+        String publishDate = spanVals[1];
+//        String rv="";
+//        for (String v : spanVals) {
+//            rv=v.replace("次观看","").replace("万","");
+//            System.out.println("video span -> " + rv );
+//        }
+
         System.out.println("video -> " + BASE_URL + href);
+        System.out.println("video imgSrc -> " + "https:" + imgSrc);
+        System.out.println("video imgAlt -> " + imgAlt);
+
+        final XiguaVideoBean bean = new XiguaVideoBean();
+        bean.setTitle(imgAlt);
+        bean.setCover("https:" + imgSrc);
+        bean.setUrl(BASE_URL + href);
+        bean.setWatchCount(watchCount);
+        bean.setPublishDate(publishDate);
     }
 
     /**
