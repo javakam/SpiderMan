@@ -1,0 +1,51 @@
+{
+  "ack": "yes",
+  "lc": {
+    "isp_code": "2",
+    "city_code": "",
+    "provice_code": "BJ",
+    "country_code": "CN",
+    "ip": "111.203.227.190"
+  },
+  "client_sid": "OH7/I3MHesPpf1pTlKgkoWmxWAF5Qe0O4/Bq9JuHNks=",
+  "flv_cdn_info": {
+    "cdn_code": "LIVE-FLV-CDN-KS",
+    "cdn_name": "3rdFLV金山云"
+  },
+  "flv_url": {
+    "flv1": "https://cctvksh5flvc.v.kcdnvip.com/live/cctv2_1_600.flv?app=live&stream=cdrmcctv2_1_600.flv",
+    "flv2": "https://cctvksh5flvc.v.kcdnvip.com/live/cctv2_1_600.flv?app=live&stream=cdrmcctv2_1_600.flv",
+    "flv3": "yangshi?group&drm=1",
+    "flv4": "",
+    "flv5": "https://cctvksw.v.kcdnvip.com/live/cctv2_1/index.m3u8?adapt=0&BR=pub",
+    "flv6": ""
+  },
+  "hls_cdn_info": {
+    "cdn_code": "LIVE-HLS-CDN-CNC2",
+    "cdn_name": "3rdHLS网宿2"
+  },
+  "hls_url": {
+    "hls1": "https://cctvcncw.v.wscdns.com/live/cctv2_1/index.m3u8?contentid=2820180516001",
+    "hls2": "https://cctvcnch5c.v.wscdns.com/live/cdrmcctv2_1/index.m3u8",
+    "hls3": "yangshi?group&drm=1",
+    "hls4": "https://cctvcncw.v.wscdns.com/live/cctv2_1/index.m3u8?contentid=2820180516001",
+    "hls5": "https://cctvcncw.v.wscdns.com/live/cctv2_2/index.m3u8?adapt=0&BR=pic",
+    "hls6": "https://cctvcncw.v.wscdns.com/live/cctv2_1/index.m3u8?adapt=0&BR=audio"
+  },
+  "hds_cdn_info": {
+    "cdn_code": "LIVE-HDS-CDN-KS",
+    "cdn_name": "3rdHDS金山云"
+  },
+  "hds_url": {
+    "hds1": "",
+    "hds2": "",
+    "hds3": "yangshi?group&drm=1",
+    "hds4": "https://cctvksh5c.v.kcdnvip.com/live/cctv2_2/index.m3u8?contentid=2820180516001",
+    "hds5": "",
+    "hds6": ""
+  },
+  "public": "1",
+  "status": "1",
+  "video_protect": "3",
+  "audio_protect": "3"
+}

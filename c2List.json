@@ -1,0 +1,342 @@
+{
+  "cctv2": {
+    "isLive": "正点财经",
+    "liveSt": 1606201200,
+    "channelName": "CCTV-2 财经",
+    "program": [
+      {
+        "t": "经济半小时",
+        "st": 1606148055,
+        "et": 1606150045,
+        "showTime": "00:14",
+        "eventType": "",
+        "eventId": "",
+        "duration": 1990
+      },
+      {
+        "t": "厨王争霸2020国庆-7",
+        "st": 1606150045,
+        "et": 1606153585,
+        "showTime": "00:47",
+        "eventType": "",
+        "eventId": "",
+        "duration": 3540
+      },
+      {
+        "t": "周末特供2020-川味第三季6-28分钟版",
+        "st": 1606153585,
+        "et": 1606155265,
+        "showTime": "01:46",
+        "eventType": "",
+        "eventId": "",
+        "duration": 1680
+      },
+      {
+        "t": "创业英雄汇-2020-21",
+        "st": 1606155265,
+        "et": 1606158745,
+        "showTime": "02:14",
+        "eventType": "",
+        "eventId": "",
+        "duration": 3480
+      },
+      {
+        "t": "周末特供2020-484",
+        "st": 1606158745,
+        "et": 1606159945,
+        "showTime": "03:12",
+        "eventType": "",
+        "eventId": "",
+        "duration": 1200
+      },
+      {
+        "t": "回家吃饭-2020-274",
+        "st": 1606159945,
+        "et": 1606161625,
+        "showTime": "03:32",
+        "eventType": "",
+        "eventId": "",
+        "duration": 1680
+      },
+      {
+        "t": "消费主张",
+        "st": 1606161625,
+        "et": 1606163380,
+        "showTime": "04:00",
+        "eventType": "",
+        "eventId": "",
+        "duration": 1755
+      },
+      {
+        "t": "是真的吗-2020-46",
+        "st": 1606163380,
+        "et": 1606167130,
+        "showTime": "04:29",
+        "eventType": "",
+        "eventId": "",
+        "duration": 3750
+      },
+      {
+        "t": "经济信息联播",
+        "st": 1606167130,
+        "et": 1606170780,
+        "showTime": "05:32",
+        "eventType": "",
+        "eventId": "",
+        "duration": 3650
+      },
+      {
+        "t": "生财有道-2020-11-23",
+        "st": 1606170780,
+        "et": 1606172400,
+        "showTime": "06:33",
+        "eventType": "",
+        "eventId": "",
+        "duration": 1620
+      },
+      {
+        "t": "第一时间",
+        "st": 1606172400,
+        "et": 1606179600,
+        "showTime": "07:00",
+        "eventType": "",
+        "eventId": "",
+        "duration": 7200
+      },
+      {
+        "t": "正点财经",
+        "st": 1606179600,
+        "et": 1606183200,
+        "showTime": "09:00",
+        "eventType": "",
+        "eventId": "",
+        "duration": 3600
+      },
+      {
+        "t": "正点财经",
+        "st": 1606183200,
+        "et": 1606185000,
+        "showTime": "10:00",
+        "eventType": "",
+        "eventId": "",
+        "duration": 1800
+      },
+      {
+        "t": "经济半小时",
+        "st": 1606185000,
+        "et": 1606186800,
+        "showTime": "10:30",
+        "eventType": "",
+        "eventId": "",
+        "duration": 1800
+      },
+      {
+        "t": "正点财经",
+        "st": 1606186800,
+        "et": 1606188720,
+        "showTime": "11:00",
+        "eventType": "",
+        "eventId": "",
+        "duration": 1920
+      },
+      {
+        "t": "回家吃饭-2020-274",
+        "st": 1606188720,
+        "et": 1606190400,
+        "showTime": "11:32",
+        "eventType": "",
+        "eventId": "",
+        "duration": 1680
+      },
+      {
+        "t": "天下财经",
+        "st": 1606190400,
+        "et": 1606194040,
+        "showTime": "12:00",
+        "eventType": "",
+        "eventId": "",
+        "duration": 3640
+      },
+      {
+        "t": "中国经济大讲堂-2020-44",
+        "st": 1606194040,
+        "et": 1606196800,
+        "showTime": "13:00",
+        "eventType": "",
+        "eventId": "",
+        "duration": 2760
+      },
+      {
+        "t": "周末特供2020-668",
+        "st": 1606196800,
+        "et": 1606197600,
+        "showTime": "13:46",
+        "eventType": "",
+        "eventId": "",
+        "duration": 800
+      },
+      {
+        "t": "正点财经",
+        "st": 1606197600,
+        "et": 1606199400,
+        "showTime": "14:00",
+        "eventType": "",
+        "eventId": "",
+        "duration": 1800
+      },
+      {
+        "t": "消费主张",
+        "st": 1606199400,
+        "et": 1606201200,
+        "showTime": "14:30",
+        "eventType": "",
+        "eventId": "",
+        "duration": 1800
+      },
+      {
+        "t": "正点财经",
+        "st": 1606201200,
+        "et": 1606203040,
+        "showTime": "15:00",
+        "eventType": "",
+        "eventId": "",
+        "duration": 1840
+      },
+      {
+        "t": "生财有道-2020-11-23",
+        "st": 1606203040,
+        "et": 1606204800,
+        "showTime": "15:30",
+        "eventType": "",
+        "eventId": "",
+        "duration": 1760
+      },
+      {
+        "t": "正点财经",
+        "st": 1606204800,
+        "et": 1606208400,
+        "showTime": "16:00",
+        "eventType": "",
+        "eventId": "",
+        "duration": 3600
+      },
+      {
+        "t": "正点财经",
+        "st": 1606208400,
+        "et": 1606210290,
+        "showTime": "17:00",
+        "eventType": "",
+        "eventId": "",
+        "duration": 1890
+      },
+      {
+        "t": "周末特供2020-老广的味道第四季1-28分钟版",
+        "st": 1606210290,
+        "et": 1606211970,
+        "showTime": "17:31",
+        "eventType": "",
+        "eventId": "",
+        "duration": 1680
+      },
+      {
+        "t": "2020 老广的味道 第三季（新）-5",
+        "st": 1606211970,
+        "et": 1606213800,
+        "showTime": "17:59",
+        "eventType": "",
+        "eventId": "",
+        "duration": 1830
+      },
+      {
+        "t": "回家吃饭-2020-275",
+        "st": 1606213800,
+        "et": 1606215600,
+        "showTime": "18:30",
+        "eventType": "",
+        "eventId": "",
+        "duration": 1800
+      },
+      {
+        "t": "生财有道-2020-11-24",
+        "st": 1606215600,
+        "et": 1606217400,
+        "showTime": "19:00",
+        "eventType": "",
+        "eventId": "",
+        "duration": 1800
+      },
+      {
+        "t": "消费主张",
+        "st": 1606217400,
+        "et": 1606219200,
+        "showTime": "19:30",
+        "eventType": "",
+        "eventId": "",
+        "duration": 1800
+      },
+      {
+        "t": "经济半小时",
+        "st": 1606219200,
+        "et": 1606221000,
+        "showTime": "20:00",
+        "eventType": "",
+        "eventId": "",
+        "duration": 1800
+      },
+      {
+        "t": "经济信息联播",
+        "st": 1606221000,
+        "et": 1606224600,
+        "showTime": "20:30",
+        "eventType": "",
+        "eventId": "",
+        "duration": 3600
+      },
+      {
+        "t": "央视财经评论-2020-11-24",
+        "st": 1606224600,
+        "et": 1606226100,
+        "showTime": "21:30",
+        "eventType": "",
+        "eventId": "",
+        "duration": 1500
+      },
+      {
+        "t": "2020中国福利彩票公益开奖-219",
+        "st": 1606226100,
+        "et": 1606226400,
+        "showTime": "21:55",
+        "eventType": "",
+        "eventId": "",
+        "duration": 300
+      },
+      {
+        "t": "2020话说南水北调-2",
+        "st": 1606226400,
+        "et": 1606229235,
+        "showTime": "22:00",
+        "eventType": "",
+        "eventId": "",
+        "duration": 2835
+      },
+      {
+        "t": "周末特供-兵器面面观75",
+        "st": 1606229235,
+        "et": 1606230690,
+        "showTime": "22:47",
+        "eventType": "",
+        "eventId": "",
+        "duration": 1455
+      },
+      {
+        "t": "生活家-2020-12",
+        "st": 1606230690,
+        "et": 1606233540,
+        "showTime": "23:11",
+        "eventType": "",
+        "eventId": "",
+        "duration": 2850
+      }
+    ]
+  }
+}
