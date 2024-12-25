@@ -1,7 +1,6 @@
 package com.spider;
 
 import org.jsoup.Jsoup;
-import org.jsoup.helper.Validate;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
@@ -10,11 +9,11 @@ import java.io.IOException;
 
 /**
  * Example program to list links from a URL.
- *
+ * <p>
  * https://www.open-open.com/jsoup/example-list-links.htm
  */
 public class ListLinks {
-    private static final String testUrl="http://news.ycombinator.com";
+    private static final String testUrl = "http://news.ycombinator.com";
 //    private static final String testUrl="https://www.ixigua.com/home/742906704958820/";
 //    private static final String testUrl="https://www.ixigua.com/home/742906704958820/?is_new_connect=0&is_new_user=0";
 
@@ -40,7 +39,7 @@ public class ListLinks {
 
         print("\nImports: (%d)", imports.size());
         for (Element link : imports) {
-            print(" * %s <%s> (%s)", link.tagName(),link.attr("abs:href"), link.attr("rel"));
+            print(" * %s <%s> (%s)", link.tagName(), link.attr("abs:href"), link.attr("rel"));
         }
 
         print("\nLinks: (%d)", links.size());
@@ -55,7 +54,7 @@ public class ListLinks {
 
     private static String trim(String s, int width) {
         if (s.length() > width) {
-            return s.substring(0, width-1) + ".";
+            return s.substring(0, width - 1) + ".";
         } else {
             return s;
         }

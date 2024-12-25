@@ -20,7 +20,7 @@
 //import java.util.concurrent.Executors;
 //import java.util.concurrent.TimeUnit;
 //
-///**
+/// **
 // * 修改“小视频首页”和“存放目录”之后运行main函数即可
 // */
 //@SuppressWarnings("all")
@@ -91,7 +91,7 @@
 //
 //    private static String getMainPageSource() throws InterruptedException {
 //        ChromeDriver driver = new ChromeDriver(CHROME_OPTIONS);
-////        ChromeDriver driver = new ChromeDriver(createChromeDriverOptions());
+/// /        ChromeDriver driver = new ChromeDriver(createChromeDriverOptions());
 //        try {
 //            driver.get(MAIN_PAGE_URL);
 //            long waitTime = Double.valueOf(Math.max(3, Math.random() * 5) * 1000).longValue();
@@ -119,11 +119,11 @@
 //        String[] spanVals = div.getElementsByClass("VerticalFeedCard__bottomInfo").first().getElementsByTag("span").first().text().split("\\ · ");
 //        String watchCount = spanVals[0].replace("次观看", "").replace("万", "");
 //        String publishDate = spanVals[1];
-////        String rv="";
-////        for (String v : spanVals) {
-////            rv=v.replace("次观看","").replace("万","");
-////            System.out.println("video span -> " + rv );
-////        }
+/// /        String rv="";
+/// /        for (String v : spanVals) {
+/// /            rv=v.replace("次观看","").replace("万","");
+/// /            System.out.println("video span -> " + rv );
+/// /        }
 //
 //        System.out.println("video -> " + BASE_URL + href);
 //        System.out.println("video imgSrc -> " + "https:" + imgSrc);

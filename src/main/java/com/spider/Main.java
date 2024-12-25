@@ -16,7 +16,7 @@ public class Main {
 
     public static void main(String[] args) throws IOException, InterruptedException {
         // 可以考虑多线程
-        for(int i = 1; i < 600; i++) {
+        for (int i = 1; i < 600; i++) {
             try {
                 download(i);
             } catch (IOException e) {
