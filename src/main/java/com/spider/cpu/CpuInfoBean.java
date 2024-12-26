@@ -23,6 +23,9 @@ public class CpuInfoBean {
     private String historyLowPrice;//史低价格
     private String latestPrice;//最新价格
 
+    public CpuInfoBean() {
+    }
+
     public CpuInfoBean(int cpuId, String name, String performanceRank) {
         this.cpuId = cpuId;
         this.name = name;
